@@ -12,6 +12,7 @@
 		800442B01F4C8B3F00D82872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800442AF1F4C8B3F00D82872 /* Assets.xcassets */; };
 		800442B31F4C8B3F00D82872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800442B11F4C8B3F00D82872 /* LaunchScreen.storyboard */; };
 		800442BB1F4C95E000D82872 /* CBWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800442BA1F4C95E000D82872 /* CBWelcomeViewController.swift */; };
+		80FBDB441F4D889D00048DCB /* CBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FBDB431F4D889D00048DCB /* CBTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		800442B21F4C8B3F00D82872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		800442B41F4C8B3F00D82872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		800442BA1F4C95E000D82872 /* CBWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBWelcomeViewController.swift; sourceTree = "<group>"; };
+		80FBDB431F4D889D00048DCB /* CBTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				800442BA1F4C95E000D82872 /* CBWelcomeViewController.swift */,
+				80FBDB431F4D889D00048DCB /* CBTableViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				800442A91F4C8B3F00D82872 /* AppDelegate.swift in Sources */,
+				80FBDB441F4D889D00048DCB /* CBTableViewController.swift in Sources */,
 				800442BB1F4C95E000D82872 /* CBWelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +332,7 @@
 				800442B91F4C8B3F00D82872 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
