@@ -42,9 +42,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7vT-QC-nd5">
-                                <rect key="frame" x="82" y="551" width="174" height="53"/>
+                                <rect key="frame" x="75" y="558" width="225" height="46"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="7vT-QC-nd5" secondAttribute="height" multiplier="105:32" id="8Ey-yX-HNd"/>
+                                    <constraint firstAttribute="width" constant="225" id="1o3-Cg-Eq6"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <state key="normal" title="Start the Hunt">
@@ -57,7 +58,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="7vT-QC-nd5" secondAttribute="trailing" constant="103" id="25O-dR-28b"/>
+                            <constraint firstItem="7vT-QC-nd5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="405-OB-iUa"/>
                             <constraint firstAttribute="trailing" secondItem="OcK-TM-Ywt" secondAttribute="trailing" id="KfW-tb-BOC"/>
                             <constraint firstItem="OcK-TM-Ywt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="M3B-VB-AHt"/>
                             <constraint firstItem="ywM-X4-Tem" firstAttribute="leading" secondItem="21m-yX-32Y" secondAttribute="leading" id="YTb-Er-4Tu"/>
@@ -68,7 +69,6 @@
                             <constraint firstItem="ywM-X4-Tem" firstAttribute="trailing" secondItem="21m-yX-32Y" secondAttribute="trailing" id="nWJ-iG-7Um"/>
                             <constraint firstItem="ywM-X4-Tem" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rCO-DK-Trt"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7vT-QC-nd5" secondAttribute="bottom" constant="63" id="xbS-r7-Avg"/>
-                            <constraint firstItem="7vT-QC-nd5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="66" id="zGm-qS-bLc"/>
                             <constraint firstItem="ywM-X4-Tem" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="99" id="zn3-X2-Id3"/>
                         </constraints>
                     </view>
