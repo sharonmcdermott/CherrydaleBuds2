@@ -23,6 +23,8 @@ class CBTableViewController: UIViewController, UITableViewDataSource, UITableVie
 
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
+        
+        
     }
     
     open func dequeueReusableCell(withIdentifier identifier: String, for indexPath: IndexPath) -> UITableViewCell {
