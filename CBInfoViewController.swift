@@ -8,9 +8,19 @@
 
 import UIKit
 
+// Def: Global variables are defined outside of any function, method, closure, or type context.
+
+// Def: Local variables are defined within a function, method, or closure context.
+
+// Mark: This brings up the information when you press the info button
+
 class CBInfoViewController: UIViewController {
     
     @IBOutlet weak var infoImageView: UIImageView!
+        var flowerImage: UIImage? {
+            didSet { infoImageView?.image = flowerImage }
+    }
+
     
     
     @IBOutlet weak var infoButton: UIButton!
@@ -27,6 +37,8 @@ class CBInfoViewController: UIViewController {
     @IBOutlet weak var textBackgroundView: UITableView!
     
     @IBOutlet weak var closeButton: UIButton!
+
+    // Mark: Whem the close button is pressed, the information about the flower becomes hidden.
     
     @IBAction func closeButton(_ sender: UIButton) {
         infoButton.isHidden = false
@@ -36,6 +48,8 @@ class CBInfoViewController: UIViewController {
         hintLabel.isHidden = true
         subtitleLabel.isHidden = true
     }
+    
+    // Mark: This takes away the flower information when the close button is pressed.
 
     @IBOutlet weak var titleLabel: UILabel!
     
@@ -44,10 +58,13 @@ class CBInfoViewController: UIViewController {
     @IBOutlet weak var subtitleLabel: UILabel!
     
     
+            // Mark: made navigation bar transparent and rmoved the shadow image below the nav bar.
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        navigationController?.navigationBar.shadowImage = UIImage()
 
         // Do any additional setup after loading the view.
     }
