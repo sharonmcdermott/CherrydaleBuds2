@@ -12,6 +12,8 @@
 		800442B01F4C8B3F00D82872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800442AF1F4C8B3F00D82872 /* Assets.xcassets */; };
 		800442B31F4C8B3F00D82872 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800442B11F4C8B3F00D82872 /* LaunchScreen.storyboard */; };
 		800442BB1F4C95E000D82872 /* CBWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800442BA1F4C95E000D82872 /* CBWelcomeViewController.swift */; };
+		80115E741F51C44F00596059 /* CBTableViewCellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80115E731F51C44F00596059 /* CBTableViewCellViewController.swift */; };
+		80115E781F51C9B300596059 /* CBInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80115E771F51C9B300596059 /* CBInfoViewController.swift */; };
 		80FBDB461F4D929200048DCB /* CBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FBDB451F4D929200048DCB /* CBTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 		800442B21F4C8B3F00D82872 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		800442B41F4C8B3F00D82872 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		800442BA1F4C95E000D82872 /* CBWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBWelcomeViewController.swift; sourceTree = "<group>"; };
+		80115E731F51C44F00596059 /* CBTableViewCellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CBTableViewCellViewController.swift; path = ../CBTableViewCellViewController.swift; sourceTree = "<group>"; };
+		80115E771F51C9B300596059 /* CBInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CBInfoViewController.swift; path = ../CBInfoViewController.swift; sourceTree = "<group>"; };
 		80FBDB451F4D929200048DCB /* CBTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +76,8 @@
 			children = (
 				800442BA1F4C95E000D82872 /* CBWelcomeViewController.swift */,
 				80FBDB451F4D929200048DCB /* CBTableViewController.swift */,
+				80115E731F51C44F00596059 /* CBTableViewCellViewController.swift */,
+				80115E771F51C9B300596059 /* CBInfoViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -165,8 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				800442A91F4C8B3F00D82872 /* AppDelegate.swift in Sources */,
+				80115E741F51C44F00596059 /* CBTableViewCellViewController.swift in Sources */,
 				80FBDB461F4D929200048DCB /* CBTableViewController.swift in Sources */,
 				800442BB1F4C95E000D82872 /* CBWelcomeViewController.swift in Sources */,
+				80115E781F51C9B300596059 /* CBInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
